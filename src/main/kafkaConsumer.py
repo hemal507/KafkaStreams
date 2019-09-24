@@ -3,7 +3,7 @@
 from kafka import KafkaConsumer
 
 consumer = KafkaConsumer(enable_auto_commit=True,auto_commit_interval_ms=10)
-consumer.subscribe("two")
+consumer.subscribe("three")
 for i in consumer :
     print(i)
     consumer.commit_async(offsets=10)
