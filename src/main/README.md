@@ -14,7 +14,7 @@ Steps :-
     
 
 Note : 
-By default kafkaProducer.py will create the topic with partition as 1 and replication factor as 1 in case if it is not existing and push messages to it.
+By default kafkaProducer.py will create the topic with partition as 1 and replication factor as 1 in case if it is not existing
 
 
     
